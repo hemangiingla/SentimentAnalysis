@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎤 Emotion AI Analyzer</h1>
+
+    <!-- Upload Section -->
+    <div class="card">
+        <h2>Upload Audio</h2>
+        <input type="file" id="fileInput">
+        <button onclick="uploadFile()">Analyze</button>
+    </div>
+
+    <!-- Recording Section -->
+    <div class="card">
+        <h2>Record Voice</h2>
+        <button onclick="startRecording()">Start</button>
+        <button onclick="stopRecording()">Stop</button>
+    </div>
+
+    <!-- Result -->
+    <div class="result" id="result"></div>
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
